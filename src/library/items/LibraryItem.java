@@ -1,5 +1,6 @@
 package library.items;
 
+// Created Library item class.
 public abstract class LibraryItem {
     private String id;
     private String title;
@@ -8,6 +9,7 @@ public abstract class LibraryItem {
     private String publisher;
     private int copies;
 
+    //Created the constructor.
     public LibraryItem(String id, String title, String author, String isbn, String publisher, int copies){
         this.id = id;
         this.title = title;
@@ -17,8 +19,10 @@ public abstract class LibraryItem {
         this.copies = copies;
     }
 
+    // Created abstract method.
     public abstract String getItemType();
 
+    // Created getter and setter methods.
     public String getId(){
         return id;
     }
@@ -67,6 +71,7 @@ public abstract class LibraryItem {
         this.copies = copies;
     }
 
+    // Created toString method.
     public String toString(){
         return "LibraryItem{" +
                 "id='" + id + '\'' +
