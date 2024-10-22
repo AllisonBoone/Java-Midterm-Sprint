@@ -9,7 +9,7 @@ public class Periodical extends LibraryItem{
         this.type = type;
     }
 
-    // Created abstract method.
+    // Created abstract method for item type.
     public String getItemType(){
         return "Periodical - " + type;
     }

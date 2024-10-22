@@ -19,7 +19,7 @@ public abstract class LibraryItem {
         this.copies = copies;
     }
 
-    // Created abstract method.
+    // Created abstract method for item type.
     public abstract String getItemType();
 
     // Created getter and setter methods.

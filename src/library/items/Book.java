@@ -9,7 +9,7 @@ public class Book extends LibraryItem{
         this.format = format;
     }
 
-    // Created abstract method.
+    // Created abstract method for item type.
     public String getItemType(){
         return "Book - " + format;
     }
