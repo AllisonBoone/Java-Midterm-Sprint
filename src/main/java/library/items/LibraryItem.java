@@ -1,4 +1,4 @@
-package library.items;
+package main.java.library.items;
 
 // Created Library item class.
 public abstract class LibraryItem {

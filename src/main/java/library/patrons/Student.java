@@ -1,4 +1,4 @@
-package library.patrons;
+package main.java.library.patrons;
 
 // Created Student class.
 public class Student extends Patron{

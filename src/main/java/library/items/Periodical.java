@@ -1,4 +1,4 @@
-package library.items;
+package main.java.library.items;
 
 // Created the Periodical class.
 public class Periodical extends LibraryItem{

@@ -1,13 +1,13 @@
-package library;
+package main.java.library;
 
-// Imported Book, Periodical, Author, Employee, Student, Patron, util.
-import library.items.Book;
-import library.items.Periodical;
-import library.authors.Author;
-import library.patrons.Employee;
-import library.patrons.Student;
-import library.patrons.Patron;
 import java.util.Scanner;
+
+import main.java.library.authors.Author;
+import main.java.library.items.Book;
+import main.java.library.items.Periodical;
+import main.java.library.patrons.Employee;
+import main.java.library.patrons.Patron;
+import main.java.library.patrons.Student;
 
 // Created LibraryMenu class.
 public class LibraryMenu {

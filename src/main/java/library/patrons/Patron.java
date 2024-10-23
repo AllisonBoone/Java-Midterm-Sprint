@@ -1,9 +1,10 @@
-package library.patrons;
+package main.java.library.patrons;
 
 // Imported utils and LibraryItem.
 import java.util.ArrayList;
 import java.util.List;
-import library.items.LibraryItem;
+
+import main.java.library.items.LibraryItem;
 
 // Created Patron class.
 public abstract class Patron {

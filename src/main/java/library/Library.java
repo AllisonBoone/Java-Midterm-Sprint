@@ -1,11 +1,11 @@
-package library;
+package main.java.library;
 
-// Imported LibraryItems, Author, Patron, and utils.
-import library.items.LibraryItem;
-import library.authors.Author;
-import library.patrons.Patron;
 import java.util.ArrayList;
 import java.util.List;
+
+import main.java.library.authors.Author;
+import main.java.library.items.LibraryItem;
+import main.java.library.patrons.Patron;
 
 // Created library class.
 public class Library{

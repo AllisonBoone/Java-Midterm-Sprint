@@ -1,9 +1,10 @@
-package library.authors;
+package main.java.library.authors;
 
 // Imported utils and LibraryItem
 import java.util.ArrayList;
 import java.util.List;
-import library.items.LibraryItem;
+
+import main.java.library.items.LibraryItem;
 
 // Created Author class.
 public class Author {
@@ -40,7 +41,7 @@ public class Author {
         return dateOfBirth;
     }
 
-    public void seetDateOfBirth(String dateOfBirth){
+    public void setDateOfBirth(String dateOfBirth){
         this.dateOfBirth = dateOfBirth;
     }
 

@@ -1,4 +1,4 @@
-package library.items;
+package main.java.library.items;
 
 // Created book class.
 public class Book extends LibraryItem{

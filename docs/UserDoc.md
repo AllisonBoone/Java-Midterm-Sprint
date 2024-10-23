@@ -51,3 +51,6 @@ Provides a menu-based interface for interacting with the library system via the 
 
 10.Main (Class):
 The entry point of the program, which initializes the library and launches the menu system.
+
+Start Application:
+To run the application, compile the code using your preferred Java IDE or from the command line. Once compiled, run the Main.java class to start the Library Management System.
